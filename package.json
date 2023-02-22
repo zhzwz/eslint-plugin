@@ -1,0 +1,55 @@
+{
+  "name": "@zhzwz/eslint-plugin",
+  "version": "0.0.1",
+  "description": "An ESLint plugin to lint code.",
+  "keywords": [
+    "eslint",
+    "eslint-plugin"
+  ],
+  "license": "MIT",
+  "author": "zhzwz",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "build": "unbuild",
+    "clean": "rimraf node_modules dist",
+    "test": "pnpm clean && pnpm install && pnpm build && pnpm eslint ."
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "@zhzwz/eslint-plugin": "file:",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsonc": "^2.6.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-vue": "^9.9.0",
+    "eslint-plugin-yml": "^1.5.0",
+    "yaml-eslint-parser": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "rimraf": "^4.1.2",
+    "typescript": "^4.9.5",
+    "unbuild": "^1.1.2"
+  }
+}

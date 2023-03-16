@@ -1,4 +1,26 @@
 root: true
 
 extends:
-  - "plugin:@zhzwz/all"
+  - "plugin:@zhzwz/standard"
+  - "plugin:@zhzwz/vue"
+  - "plugin:@zhzwz/react"
+  - "plugin:@zhzwz/json"
+  - "plugin:@zhzwz/json-package"
+  - "plugin:@zhzwz/json-vscode-settings"
+  - "plugin:@zhzwz/yaml"
+  - "plugin:@zhzwz/markdown"
+
+ignorePatterns:
+  - "!.github"
+  - "!.vscode"
+  - "!.eslintrc*"
+  - dist
+  - public
+  - node_modules
+  - "*.min.*"
+  - "*.code-snippets"
+  - "LICENSE*"
+  - CHANGELOG.md
+  - packages-lock.json
+  - yarn.lock
+  - pnpm-lock.yaml

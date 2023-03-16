@@ -56,6 +56,7 @@ export default {
       flatTernaryExpressions: false,
       ignoreComments: false,
       ignoredNodes: [
+        'ConditionalExpression',
         'TemplateLiteral *',
         'JSXElement',
         'JSXElement > *',

@@ -222,9 +222,9 @@ export default {
     // No
     'no-eval': 'error',
     'no-void': 'error',
-    'no-alert': 'error', // No `alert`, `confirm`, `prompt`
+    'no-alert': 'warn', // alert, confirm, prompt
     'no-labels': 'error',
-    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
     'no-new-func': 'error', // e.g. new Function('...')
     'no-proto': 'error',
     'no-iterator': 'error',

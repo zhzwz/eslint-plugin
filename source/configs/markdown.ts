@@ -5,14 +5,19 @@ export default {
   overrides: [
     // enable markdown processor for `.md` files
     {
-      files: ['**/*.md'],
+      files: [
+        '**/*.md',
+      ],
       processor: 'markdown/markdown',
     },
     {
-      files: ['**/*.md/*.*'],
+      files: [
+        '**/*.md/*.*',
+      ],
       parserOptions: {
+        // strict mode parsing without `use strict`
         ecmaFeatures: {
-          impliedStrict: true, // strict mode parsing without `use strict`
+          impliedStrict: true,
         },
       },
       rules: {
@@ -26,13 +31,13 @@ export default {
         'no-unused-vars': 'off',
         'no-unused-expressions': 'off',
         'no-restricted-imports': 'off',
-        // ts
+
         '@typescript-eslint/comma-dangle': 'off',
         '@typescript-eslint/no-redeclare': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-var-requires': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
-        // import
+
         'import/no-unresolved': 'off',
       },
     },

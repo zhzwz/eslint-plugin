@@ -12,19 +12,43 @@ pnpm add --save-dev eslint typescript @zhzwz/eslint-plugin
 
 ## Usage
 
-You can configure eslint in `package.json`.
+- You can configure eslint in `package.json`.
 
 ```json
-// package.json
 {
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "eslintConfig": {
-    "extends": "plugin:@zhzwz/all"
+    "extends": "plugin:@zhzwz/standard"
   }
 }
+```
+
+- Or configure eslint in `.eslintrc.yaml` file.
+
+```yaml
+root: true
+
+extends:
+  - "plugin:@zhzwz/standard"
+  - "plugin:@zhzwz/vue"
+  - "plugin:@zhzwz/react"
+  - "plugin:@zhzwz/json"
+  - "plugin:@zhzwz/json-package"
+  - "plugin:@zhzwz/json-vscode-settings"
+  - "plugin:@zhzwz/yaml"
+  - "plugin:@zhzwz/markdown"
+
+ignorePatterns:
+  - node_modules
+  - dist
+  - public
+  - "*.min.*"
+  - CHANGELOG.md
+  - packages-lock.json
+  - pnpm-lock.yaml
 ```
 
 ## Thanks

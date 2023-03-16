@@ -20,6 +20,10 @@
   "files": [
     "dist"
   ],
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=7.0.0"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "unbuild",

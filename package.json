@@ -33,6 +33,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
+    "@unocss/eslint-plugin": "^0.50.4",
     "@zhzwz/eslint-plugin": "file:",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",

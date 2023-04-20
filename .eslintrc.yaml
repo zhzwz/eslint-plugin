@@ -1,26 +1,18 @@
 root: true
 
 extends:
-  - "plugin:@zhzwz/standard"
+  - "plugin:@zhzwz/js"
+  - "plugin:@zhzwz/ts"
   - "plugin:@zhzwz/vue"
-  - "plugin:@zhzwz/react"
   - "plugin:@zhzwz/json"
-  - "plugin:@zhzwz/json-package"
-  - "plugin:@zhzwz/json-vscode-settings"
+  - "plugin:@zhzwz/package.json"
+  - "plugin:@zhzwz/tsconfig.json"
+  - "plugin:@zhzwz/settings.json"
   - "plugin:@zhzwz/yaml"
-  - "plugin:@zhzwz/markdown"
+  - "plugin:@zhzwz/md"
+
+parserOptions:
+  project: ./tsconfig.json
 
 ignorePatterns:
-  - "!.github"
-  - "!.vscode"
-  - "!.eslintrc*"
   - dist
-  - public
-  - node_modules
-  - "*.min.*"
-  - "*.code-snippets"
-  - "LICENSE*"
-  - CHANGELOG.md
-  - packages-lock.json
-  - yarn.lock
-  - pnpm-lock.yaml

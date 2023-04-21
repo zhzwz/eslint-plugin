@@ -144,5 +144,9 @@ export default {
     '@typescript-eslint/space-before-function-paren': 'error',
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': 'error',
+
+    // Custom:
+    '@typescript-eslint/no-floating-promises': 'off',
+    '@typescript-eslint/no-misused-promises': 'off',
   },
 }

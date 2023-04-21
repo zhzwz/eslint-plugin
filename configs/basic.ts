@@ -65,7 +65,7 @@ export default {
     // id-denylist
     // id-length
     'id-match': [
-      'warn', '^[a-z]+([A-Z][a-z]+)*$|^([A-Z][_]*)+$', {
+      'warn', '^[a-z]+([A-Z][a-z]+)*$|^([A-Z][a-z]+)*$|^([A-Z][_]*)+$', {
         onlyDeclarations: true,
         ignoreDestructuring: true,
       },
@@ -158,7 +158,7 @@ export default {
     // no-ternary
     'no-throw-literal': 'warn',
     'no-undef-init': 'warn', // fixable
-    'no-undefined': 'error',
+    // no-undefined
     // no-underscore-dangle
     'no-unneeded-ternary': 'error', // fixable
     'no-unused-expressions': 'error',

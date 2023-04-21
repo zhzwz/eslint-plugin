@@ -112,16 +112,6 @@ export default {
     '@typescript-eslint/no-invalid-this': 'error',
     'no-loop-func': 'off',
     '@typescript-eslint/no-loop-func': 'warn',
-    'no-magic-numbers': 'off',
-    '@typescript-eslint/no-magic-numbers': [
-      'warn', {
-        ignoreArrayIndexes: true,
-        ignoreDefaultValues: true,
-        ignoreClassFieldInitialValues: true,
-        enforceConst: false,
-        detectObjects: false,
-      },
-    ],
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'error',
     'no-shadow': 'off',
@@ -145,12 +135,8 @@ export default {
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': 'error',
 
-    // ...
-    // '@typescript-eslint/no-floating-promises': 'off',
-    // '@typescript-eslint/no-misused-promises': 'off',
-    // '@typescript-eslint/no-unsafe-argument': 'warn',
-    // '@typescript-eslint/no-unsafe-assignment': 'warn',
-    // '@typescript-eslint/no-unsafe-return': 'warn',
-    // '@typescript-eslint/no-unsafe-member-access': 'warn',
+    // Off:
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-magic-numbers': 'off',
   },
 }

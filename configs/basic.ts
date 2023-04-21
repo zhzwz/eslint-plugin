@@ -117,15 +117,7 @@ export default {
     'no-lone-blocks': 'warn',
     'no-lonely-if': 'error', // fixable
     'no-loop-func': 'warn',
-    'no-magic-numbers': [
-      'warn', {
-        ignoreArrayIndexes: true, //    default: false
-        ignoreDefaultValues: true, //    default: false
-        ignoreClassFieldInitialValues: true, //    default: false
-        enforceConst: true, //    default: false
-        detectObjects: true, //  default: false
-      },
-    ],
+    // no-magic-numbers
     'no-mixed-operators': 'warn',
     'no-multi-assign': 'warn',
     'no-multi-str': 'warn',

@@ -141,7 +141,7 @@ export default {
     'space-before-blocks': 'off',
     '@typescript-eslint/space-before-blocks': 'error',
     'space-before-function-paren': 'off',
-    '@typescript-eslint/space-before-function-paren': 'error',
+    '@typescript-eslint/space-before-function-paren': ['error', { anonymous: 'never', named: 'never', asyncArrow: 'always' }],
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': 'error',
 

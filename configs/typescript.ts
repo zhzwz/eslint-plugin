@@ -20,7 +20,7 @@ export default {
   },
   rules: {
     '@typescript-eslint/consistent-type-exports': ['error', { fixMixedExportsWithInlineTypeSpecifier: true }], // fixable
-    '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports', disallowTypeAnnotations: true }], // fixable
+    // '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports', disallowTypeAnnotations: true }], // fixable
     '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'none' } }], // fixable
     '@typescript-eslint/method-signature-style': ['error', 'method'], // fixable
     '@typescript-eslint/no-confusing-void-expression': 'error', // fixable
@@ -28,7 +28,7 @@ export default {
     '@typescript-eslint/no-import-type-side-effects': 'error', // fixable
     '@typescript-eslint/no-redundant-type-constituents': 'warn',
     '@typescript-eslint/no-require-imports': 'warn',
-    '@typescript-eslint/no-type-alias': 'warn',
+    // '@typescript-eslint/no-type-alias': 'warn',
     '@typescript-eslint/no-unnecessary-qualifier': 'error', // fixable
     '@typescript-eslint/no-useless-empty-export': 'error', // fixable
     '@typescript-eslint/prefer-readonly': 'error', // fixable

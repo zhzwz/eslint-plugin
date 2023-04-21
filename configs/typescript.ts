@@ -37,7 +37,7 @@ export default {
     '@typescript-eslint/promise-function-async': 'error', // fixable
     '@typescript-eslint/require-array-sort-compare': 'warn',
     '@typescript-eslint/sort-type-constituents': 'error', // fixable
-    '@typescript-eslint/strict-boolean-expressions': 'error', // fixable
+    // '@typescript-eslint/strict-boolean-expressions': 'error', // fixable
     '@typescript-eslint/switch-exhaustiveness-check': 'warn',
     '@typescript-eslint/type-annotation-spacing': 'error', // fixable
 

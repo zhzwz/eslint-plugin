@@ -76,14 +76,14 @@ export default {
         skipComments: true,
       },
     ],
-    'max-lines-per-function': [
-      'warn', {
-        max: 50, // default: 50
-        skipBlankLines: true,
-        skipComments: true,
-        IIFEs: false,
-      },
-    ],
+    // 'max-lines-per-function': [
+    //   'warn', {
+    //     max: 50, // default: 50
+    //     skipBlankLines: true,
+    //     skipComments: true,
+    //     IIFEs: false,
+    //   },
+    // ],
     'max-nested-callbacks': ['warn', { max: 10 }], // default: 10
     'max-params': ['warn', { max: 3 }], // default: 3
     'max-statements': ['warn', { max: 10 }, { ignoreTopLevelFunctions: true }], // default: 10

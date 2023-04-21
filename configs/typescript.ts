@@ -32,7 +32,7 @@ export default {
     '@typescript-eslint/no-unnecessary-qualifier': 'error', // fixable
     '@typescript-eslint/no-useless-empty-export': 'error', // fixable
     '@typescript-eslint/prefer-readonly': 'error', // fixable
-    '@typescript-eslint/prefer-readonly-parameter-types': 'warn',
+    // '@typescript-eslint/prefer-readonly-parameter-types': 'warn',
     '@typescript-eslint/prefer-regexp-exec': 'error', // fixable
     '@typescript-eslint/promise-function-async': 'error', // fixable
     '@typescript-eslint/require-array-sort-compare': 'warn',
@@ -146,11 +146,11 @@ export default {
     '@typescript-eslint/space-infix-ops': 'error',
 
     // ...
-    '@typescript-eslint/no-floating-promises': 'off',
-    '@typescript-eslint/no-misused-promises': 'off',
-    '@typescript-eslint/no-unsafe-argument': 'warn',
-    '@typescript-eslint/no-unsafe-assignment': 'warn',
-    '@typescript-eslint/no-unsafe-return': 'warn',
-    '@typescript-eslint/no-unsafe-member-access': 'warn',
+    // '@typescript-eslint/no-floating-promises': 'off',
+    // '@typescript-eslint/no-misused-promises': 'off',
+    // '@typescript-eslint/no-unsafe-argument': 'warn',
+    // '@typescript-eslint/no-unsafe-assignment': 'warn',
+    // '@typescript-eslint/no-unsafe-return': 'warn',
+    // '@typescript-eslint/no-unsafe-member-access': 'warn',
   },
 }

@@ -34,7 +34,7 @@ export default {
     '@typescript-eslint/prefer-readonly': 'error', // fixable
     // '@typescript-eslint/prefer-readonly-parameter-types': 'warn',
     '@typescript-eslint/prefer-regexp-exec': 'error', // fixable
-    '@typescript-eslint/promise-function-async': 'error', // fixable
+    // '@typescript-eslint/promise-function-async': 'error', // fixable
     '@typescript-eslint/require-array-sort-compare': 'warn',
     '@typescript-eslint/sort-type-constituents': 'error', // fixable
     // '@typescript-eslint/strict-boolean-expressions': 'error', // fixable

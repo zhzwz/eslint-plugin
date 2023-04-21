@@ -86,7 +86,7 @@ export default {
     // ],
     'max-nested-callbacks': ['warn', { max: 10 }], // default: 10
     'max-params': ['warn', { max: 3 }], // default: 3
-    'max-statements': ['warn', { max: 10 }, { ignoreTopLevelFunctions: true }], // default: 10
+    // 'max-statements': ['warn', { max: 10 }, { ignoreTopLevelFunctions: true }], // default: 10
     // multiline-comment-style
     'new-cap': ['warn', { newIsCap: true, capIsNew: true, properties: true }],
     'no-alert': 'warn', // Disallow the use of alert, confirm, and prompt
@@ -122,7 +122,7 @@ export default {
     'no-multi-assign': 'warn',
     'no-multi-str': 'warn',
     'no-negated-condition': 'warn',
-    'no-nested-ternary': 'warn',
+    // 'no-nested-ternary': 'warn',
     'no-new': 'warn',
     'no-new-func': 'warn',
     'no-new-object': 'warn',

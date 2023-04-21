@@ -64,12 +64,7 @@ export default {
     'guard-for-in': 'warn',
     // id-denylist
     // id-length
-    'id-match': [
-      'warn', '^[a-z]+([A-Z][a-z]+)*$|^([A-Z][a-z]+)*$|^([A-Z][_]*)+$', {
-        onlyDeclarations: true,
-        ignoreDestructuring: true,
-      },
-    ],
+    // id-match
     'init-declarations': 'warn',
     'logical-assignment-operators': 'error', // fixable
     'max-classes-per-file': 'warn',

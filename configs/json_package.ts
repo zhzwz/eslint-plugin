@@ -37,9 +37,8 @@ export default {
   overrides: [
     {
       files: ['**/package.json'],
-      'extends': ['plugin:@zhzwz/basic-json'],
+      extends: ['plugin:@zhzwz/basic-json'],
       rules: {
-        // Disallow comments.
         'jsonc/no-comments': 'error',
         'jsonc/sort-keys': [
           'error',

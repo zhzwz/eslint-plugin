@@ -3,7 +3,7 @@ export default {
   overrides: [
     {
       files: ['**/*.vue'],
-      'extends': [
+      extends: [
         'plugin:@zhzwz/basic-typescript',
         'plugin:vue/vue3-recommended',
       ],
@@ -11,18 +11,9 @@ export default {
       parserOptions: { parser: '@typescript-eslint/parser' },
       rules: {
         // https://eslint.vuejs.org/rules/#uncategorized
-
-        'vue/block-tag-newline': [
-          'error',
-          { singleline: 'always', multiline: 'always', maxEmptyLines: 0 },
-        ],
-
+        'vue/block-tag-newline': ['error', { singleline: 'always', multiline: 'always', maxEmptyLines: 0 }],
         // "PascalCase" | "kebab-case" | "camelCase"
-        'vue/component-options-name-casing': [
-          'error',
-          'PascalCase',
-        ],
-
+        'vue/component-options-name-casing': ['error', 'PascalCase'],
         // Disallow rules in `*.vue` files.
         'no-undef': 'off',
         'no-unused-vars': 'off',

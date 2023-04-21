@@ -5,7 +5,7 @@ export default {
     'eslint-plugin-import',
     '@typescript-eslint',
   ],
-  'extends': [
+  extends: [
     'plugin:@zhzwz/basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
@@ -17,10 +17,12 @@ export default {
     ecmaVersion: 'latest',
     ecmaFeatures: { jsx: true },
     sourceType: 'module',
+    project: ['./tsconfig.json'],
+    extraFileExtensions: ['.vue'],
   },
   rules: {
     '@typescript-eslint/consistent-type-exports': ['error', { fixMixedExportsWithInlineTypeSpecifier: true }], // fixable
-    // '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports', disallowTypeAnnotations: true }], // fixable
+    // @typescript-eslint/consistent-type-imports
     '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'none' } }], // fixable
     '@typescript-eslint/method-signature-style': ['error', 'method'], // fixable
     '@typescript-eslint/no-confusing-void-expression': 'error', // fixable
@@ -28,16 +30,16 @@ export default {
     '@typescript-eslint/no-import-type-side-effects': 'error', // fixable
     '@typescript-eslint/no-redundant-type-constituents': 'warn',
     '@typescript-eslint/no-require-imports': 'warn',
-    // '@typescript-eslint/no-type-alias': 'warn',
+    // @typescript-eslint/no-type-alias
     '@typescript-eslint/no-unnecessary-qualifier': 'error', // fixable
     '@typescript-eslint/no-useless-empty-export': 'error', // fixable
     '@typescript-eslint/prefer-readonly': 'error', // fixable
-    // '@typescript-eslint/prefer-readonly-parameter-types': 'warn',
+    // @typescript-eslint/prefer-readonly-parameter-types
     '@typescript-eslint/prefer-regexp-exec': 'error', // fixable
-    // '@typescript-eslint/promise-function-async': 'error', // fixable
+    // @typescript-eslint/promise-function-async
     '@typescript-eslint/require-array-sort-compare': 'warn',
     '@typescript-eslint/sort-type-constituents': 'error', // fixable
-    // '@typescript-eslint/strict-boolean-expressions': 'error', // fixable
+    // @typescript-eslint/strict-boolean-expressions
     '@typescript-eslint/switch-exhaustiveness-check': 'warn',
     '@typescript-eslint/type-annotation-spacing': 'error', // fixable
 

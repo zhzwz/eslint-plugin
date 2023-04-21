@@ -12,7 +12,7 @@ export default {
     'eslint-plugin-promise',
     'eslint-plugin-n',
   ],
-  'extends': [
+  extends: [
     'eslint:recommended',
     'plugin:import/recommended',
   ],
@@ -76,20 +76,13 @@ export default {
         skipComments: true,
       },
     ],
-    // 'max-lines-per-function': [
-    //   'warn', {
-    //     max: 50, // default: 50
-    //     skipBlankLines: true,
-    //     skipComments: true,
-    //     IIFEs: false,
-    //   },
-    // ],
+    // max-lines-per-function
     'max-nested-callbacks': ['warn', { max: 10 }], // default: 10
     'max-params': ['warn', { max: 3 }], // default: 3
-    // 'max-statements': ['warn', { max: 10 }, { ignoreTopLevelFunctions: true }], // default: 10
+    // max-statements
     // multiline-comment-style
     'new-cap': ['warn', { newIsCap: true, capIsNew: true, properties: true }],
-    'no-alert': 'warn', // Disallow the use of alert, confirm, and prompt
+    'no-alert': 'warn',
     'no-array-constructor': 'warn',
     'no-bitwise': 'warn',
     'no-caller': 'warn',
@@ -121,8 +114,8 @@ export default {
     // no-mixed-operators
     'no-multi-assign': 'warn',
     'no-multi-str': 'warn',
-    'no-negated-condition': 'warn',
-    // 'no-nested-ternary': 'warn',
+    // no-negated-condition
+    // no-nested-ternary
     'no-new': 'warn',
     'no-new-func': 'warn',
     'no-new-object': 'warn',
@@ -140,7 +133,7 @@ export default {
     'no-return-await': 'warn',
     'no-script-url': 'warn',
     'no-sequences': 'warn',
-    // 'no-shadow': ['warn', { builtinGlobals: true, hoist: 'all', ignoreOnInitialization: true }],
+    // no-shadow
     // no-shadow-restricted-names // eslint:recommended
     // no-ternary
     'no-throw-literal': 'warn',
@@ -184,7 +177,7 @@ export default {
     'prefer-rest-params': 'warn',
     'prefer-spread': 'warn',
     'prefer-template': 'error', // fixable
-    'quote-props': ['error', 'as-needed', { numbers: true, keywords: true, unnecessary: true }], // fixable
+    'quote-props': ['error', 'as-needed', { numbers: true, keywords: false, unnecessary: true }], // fixable
     radix: 'warn',
     'require-await': 'warn',
     'require-unicode-regexp': 'warn', // fixable
@@ -232,7 +225,6 @@ export default {
         flatTernaryExpressions: true,
         offsetTernaryExpressions: false,
         ignoreComments: false,
-        // ignoredNodes: ['ConditionalExpression'],
       },
     ], // fixable
     'jsx-quotes': 'error', // fixable
@@ -265,7 +257,7 @@ export default {
     'rest-spread-spacing': 'error', // fixable
     semi: ['error', 'never', { beforeStatementContinuationChars: 'always' }], // fixable
     'semi-spacing': 'error', // fixable
-    // 'semi-style': 'error', // fixable
+    // semi-style
     'space-before-blocks': 'error', // fixable
     'space-before-function-paren': ['error', { anonymous: 'never', named: 'never', asyncArrow: 'always' }], // fixable
     'space-in-parens': 'error', // fixable

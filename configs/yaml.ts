@@ -1,7 +1,7 @@
 export default {
   plugins: ['eslint-plugin-yml'],
   parser: 'yaml-eslint-parser',
-  'extends': ['plugin:yml/standard'],
+  extends: ['plugin:yml/standard'],
   rules: {
     'yml/no-empty-document': 'off',
     'yml/no-empty-mapping-value': 'off',

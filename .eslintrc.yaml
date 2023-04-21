@@ -11,8 +11,5 @@ extends:
   - "plugin:@zhzwz/yaml"
   - "plugin:@zhzwz/md"
 
-parserOptions:
-  project: ./tsconfig.json
-
 ignorePatterns:
   - dist

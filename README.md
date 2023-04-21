@@ -32,14 +32,14 @@ pnpm add --save-dev eslint typescript @zhzwz/eslint-plugin
 root: true
 
 extends:
-  - "plugin:@zhzwz/standard"
+  - "plugin:@zhzwz/js"
+  - "plugin:@zhzwz/ts"
   - "plugin:@zhzwz/vue"
-  - "plugin:@zhzwz/react"
   - "plugin:@zhzwz/json"
-  - "plugin:@zhzwz/json-package"
-  - "plugin:@zhzwz/json-vscode-settings"
+  - "plugin:@zhzwz/package.json"
+  - "plugin:@zhzwz/settings.json"
   - "plugin:@zhzwz/yaml"
-  - "plugin:@zhzwz/markdown"
+  - "plugin:@zhzwz/md"
 
 ignorePatterns:
   - node_modules

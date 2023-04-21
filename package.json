@@ -1,6 +1,6 @@
 {
   "name": "@zhzwz/eslint-plugin",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "An ESLint plugin to lint code.",
   "keywords": [
     "eslint",
@@ -28,7 +28,8 @@
     "preinstall": "npx only-allow pnpm",
     "build": "unbuild",
     "test": "pnpm build && pnpm eslint .",
-    "clean": "rimraf node_modules dist"
+    "clean": "rimraf node_modules dist",
+    "release": "pnpm build && pnpm publish --access public"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0",
@@ -56,8 +57,5 @@
     "rimraf": "^4.4.1",
     "typescript": "^5.0.3",
     "unbuild": "^1.2.0"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

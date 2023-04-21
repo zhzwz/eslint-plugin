@@ -9,8 +9,8 @@ export default {
     'plugin:@zhzwz/basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'plugin:@typescript-eslint/strict',
+    // 'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    // 'plugin:@typescript-eslint/strict',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -145,7 +145,7 @@ export default {
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': 'error',
 
-    // Custom:
+    // ...
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-misused-promises': 'off',
     '@typescript-eslint/no-unsafe-argument': 'warn',

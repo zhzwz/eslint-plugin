@@ -106,8 +106,8 @@ export default {
     '@typescript-eslint/lines-between-class-members': 'error', // fixable
     'no-dupe-class-members': 'off',
     '@typescript-eslint/no-dupe-class-members': 'error',
-    'no-extra-parens': 'off',
-    '@typescript-eslint/no-extra-parens': 'error', // fixable
+    // 'no-extra-parens': 'off',
+    // '@typescript-eslint/no-extra-parens': 'error', // fixable
     'no-invalid-this': 'off',
     '@typescript-eslint/no-invalid-this': 'error',
     'no-loop-func': 'off',

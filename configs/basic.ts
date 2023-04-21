@@ -118,7 +118,7 @@ export default {
     'no-lonely-if': 'error', // fixable
     'no-loop-func': 'warn',
     // no-magic-numbers
-    'no-mixed-operators': 'warn',
+    // no-mixed-operators
     'no-multi-assign': 'warn',
     'no-multi-str': 'warn',
     'no-negated-condition': 'warn',
@@ -247,7 +247,7 @@ export default {
     // multiline-ternary
     'new-parens': 'error', // fixable
     // newline-per-chained-call
-    'no-extra-parens': 'error', // fixable
+    // no-extra-parens
     // no-mixed-spaces-and-tabs // eslint:recommended
     'no-multi-spaces': 'error', // fixable
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 1 }], // fixable

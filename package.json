@@ -1,6 +1,6 @@
 {
   "name": "@zhzwz/eslint-plugin",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "An ESLint plugin to lint code.",
   "keywords": [
     "eslint",

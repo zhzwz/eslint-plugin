@@ -140,7 +140,7 @@ export default {
     'no-return-await': 'warn',
     'no-script-url': 'warn',
     'no-sequences': 'warn',
-    'no-shadow': ['warn', { builtinGlobals: true, hoist: 'all', ignoreOnInitialization: true }],
+    // 'no-shadow': ['warn', { builtinGlobals: true, hoist: 'all', ignoreOnInitialization: true }],
     // no-shadow-restricted-names // eslint:recommended
     // no-ternary
     'no-throw-literal': 'warn',
